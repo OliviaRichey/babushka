@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<!--
+Name:Olivia Richey
+Date Created 5/19/21
+Last Revision Date: 6/9/21
+-->
+<html lang="en">
+
+<head>
+  <title>Contact Us</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="styles/restaurantStyles.css">
+  <style>
+    .required {
+      font-weight: bold;
+    }
+
+    body {
+      font-family: 'Times New Roman', Times, serif;
+    }
+    main {
+      color: #263C4F;
+      font-size: 1.2rem;
+    }
+  </style>
+
+  <head>
+
+  <body>
+    <div class="container text-center">
+      <div id="header">
+        <header>
+          <h1>Babushka's Borscht</h1>
+        </header>
+      </div>
+      <hr />
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="menu.html">Menu</a>
+        <a href="contact.html">Contact Us</a>
+      </nav>
+      <hr />
+
+      <main>
+
+        <form action="blahblah.html" method="POST">
+          <label class="required" for="name">Name:</label>
+          <input type="text" id="name" name="name" /><br />
+          <label class="required" for="email">Email:</label>
+          <input type="text" id="email" name="email" /><br />
+          <label class="required" for="phone">Phone:</label>
+          <input type="text" id="phone" name="phone" /><br />
+
+          <label class="required" for="reason">Reason for Inquiry:</label>
+          <select id="reason" name="reason">
+            <option value="default" selected>Catering</option>
+            <option value="privateparty">Private Party</option>
+            <option value="feedback">Feedback</option>
+            <option value="other">Other</option><br />
+          </select><br />
+
+          <label class="required" for="info">Additional Information:</label>
+          <textarea id="info" name="info"></textarea><br />
+
+
+          <label for="attendance">Have you been to Babushka's Borscht?</label>
+          <input type="radio" id="yes" name="yes" value="yes" />
+          <label for="yes">Yes</label>
+          <input type="radio" id="no" name="no" value="no" />
+          <label for="no">No</label>
+
+
+
+          <legend>Best days to contact you:</legend>
+          <input type="checkbox" id="monday" name="contact" value="m" />
+          <label for="monday">M</label>
+          <input type="checkbox" id="tuesday" name="contact" value="t" />
+          <label for="tuesday">T</label>
+          <input type="checkbox" id="wednesday" name="contact" value="w" />
+          <label type="checkbox" id="thursday" name="contact" value="th"></label>
+          <label for="thursday">Th</label>
+          <input type="checkbox" id="friday" name="contact" value="f" />
+          <label for="friday">F</label><br />
+
+          <input type="submit" value="Submit Request" />
+
+        </form>
+
+      </main>
+      <div id="footer">
+        <footer>
+          <hr />
+          <p>1917 Sovetskaya St., Ulyaslavl, 19912<br />381-917-1226</p>
+        </footer>
+      </div>
+    </div>
+  </body>
+
+</html>
